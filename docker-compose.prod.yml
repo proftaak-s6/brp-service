@@ -2,7 +2,7 @@ version: '3'
 
 services:
   graphql:
-    build: ./brp
+    build: .
     image: yoksar/brp-service
     environment:
       DB_URL: jdbc:mysql://192.168.178.24:3600/default
