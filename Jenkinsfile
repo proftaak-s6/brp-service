@@ -3,7 +3,7 @@ pipeline {
     registry = "yoksar/brp-service"
     registryCredential = 'dockerhub'
     dockerImage = ''
-    gitUrl = 'https://github.com/proftaak-s6/brp.git'
+    gitUrl = 'https://github.com/proftaak-s6/brp-service.git'
   }
   agent any
     stages {
