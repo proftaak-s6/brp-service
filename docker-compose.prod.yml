@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  graphql:
+    build: ./brp
+    image: yoksar/brp-service
+    environment:
+      DB_URL: jdbc:mysql://192.168.178.24:3600/default
+      DB_USER: mysql
+      DB_PASS: mysql
+    ports:
+      - 8600:8080
+    
